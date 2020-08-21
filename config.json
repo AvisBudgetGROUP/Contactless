@@ -23,7 +23,7 @@
 			"outArguments": [
 				{  "status": ""}
 	],
-		"url": "https://sportslightoff.herokuapp.com/avis.php/execute", 
+		"url": "https://contactlessavisbudget.herokuapp.com/avis.php/execute", 
 		"verb": "POST",
         "body": "",
 		"header": "",
@@ -34,19 +34,19 @@
     },
     "configurationArguments": {
        "save": {
-          "url": "https://sportslightoff.herokuapp.com/",
+          "url": "https://contactlessavisbudget.herokuapp.com/",
 		  "verb": "POST"
        },
        "publish": {
-          "url": "https://sportslightoff.herokuapp.com/", 
+          "url": "https://contactlessavisbudget.herokuapp.com/", 
 		  "verb": "POST"
        },
        "validate": {
-         "url": "https://sportslightoff.herokuapp.com/", 
+         "url": "https://contactlessavisbudget.herokuapp.com/", 
 		  "verb": "POST"
        },
        "stop": {
-          "url": "https://sportslightoff.herokuapp.com/",
+          "url": "https://contactlessavisbudget.herokuapp.com/",
 		  "verb": "POST"
         }
     },
