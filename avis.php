@@ -6,13 +6,13 @@
 
 $json4 = file_get_contents('php://input'); 
 $object = json_decode($json4, true);
-$tel = $object['inArguments'][1]['telefono'];
+$contactkey = $object['inArguments'][1]['telefono'];
 
 //echo $missatge;
 
 
 
-$ur = 'http://cloud.avis-comms.international/contactless_endpoint?telefono='.$tel;
+$ur = 'http://cloud.avis-comms.international/contactless_endpoint?contactkey='.$contactkey;
 $ch = curl_init($ur);
 $http_headers = array(
     'User-Agent: Junk', // Any User-Agent will do here
