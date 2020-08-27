@@ -6,7 +6,7 @@
 
 $json4 = file_get_contents('php://input'); 
 $object = json_decode($json4, true);
-$contactkey = $object['inArguments'][1]['telefono'];
+$contactkey = $object['inArguments'][1]['contactkey'];
 
 //echo $missatge;
 
