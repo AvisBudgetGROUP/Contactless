@@ -143,7 +143,7 @@ define([
 		value = value.replace(/\%7D%7D/g, '}}');
 
         payload.name = name;
-		payload['arguments'].execute.inArguments = [{ "message": value },{"telefono": value2}];
+		payload['arguments'].execute.inArguments = [{ "message": value },{"contactkey": value2}];
 		payload['metaData'].isConfigured = true;
 		connection.trigger('updateActivity', payload);
 		
@@ -165,7 +165,7 @@ define([
 				}
 	 function getMessage2() {
 					
-					return $('#telefono').val();
+					return $('#contactkey').val();
 				}
 				
 				
