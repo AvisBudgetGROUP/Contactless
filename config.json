@@ -68,7 +68,7 @@
 				"inArguments": [
 				
 					  {
-                        "telefono": {
+                        "contactkey": {
                             "dataType": "Text",
                             "isNullable": false,
                             "direction": "in"   
